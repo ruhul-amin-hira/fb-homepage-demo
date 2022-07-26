@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
-    box-sizing: border-box;
+
+
+@layer base{
+    body{
+        box-sizing: border-box;
+        @apply bg-fb-gray;
+    }
 }

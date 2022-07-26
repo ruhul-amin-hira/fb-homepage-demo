@@ -8,21 +8,24 @@ import './style.scss';
 function App() {
   return (
     <div className="relative">
-      <div className='fixed bg-blue-400 w-full'>
+      <div className='fixed z-10 w-full'>
         <Header />
       </div>
-      <div className='pt-10 flex'>
-        <div className='relative shrink bg-blue-600 h-screen hidden lg:block basis-80 max-w-xs min-w-64'>
+      <div className='pt-[56px] flex 4xl:w-[1460px] 4xl:mx-auto'>
+        <div className='relative shrink h-screen hidden xl:block basis-80 max-w-xs min-w-64 px-[16px]'>
           <div className="fixed">
               <Profile />
           </div>
           
         </div>
        
-        <div className='grow basis-[722px] bg-green-300'>
-          <MainPage />
+        <div className='grow basis-[722px]  flex justify-center'>
+          <div className='md:w-[590px] 4xl:w-[680px] max-w-full w-full px-[16px]'>
+             <MainPage />
+          </div>
+         
         </div>
-        <div className='relative shrink bg-slate-500 h-screen basis-80 max-w-xs min-w-64'>
+        <div className='relative shrink hidden lg:block h-screen basis-80 max-w-xs min-w-64 px-[16px]'>
           <div className="fixed">
           <Contacts />
           </div>
