@@ -1,10 +1,14 @@
 import React from 'react'
 import { BsFacebook } from 'react-icons/bs';
 import {GrSearch} from "react-icons/gr"
+import CategoryIcon from './CategoryIcon';
+import {HiHome} from "react-icons/hi"
+import {MdOutlineOndemandVideo, MdGroups} from "react-icons/md"
+import {SiFacebookgaming} from "react-icons/si"
 
 const Header = () => {
   return (
-    <div className='px-[16px] h-[56px] bg-white flex items-center'>
+    <div className='px-[16px] h-[56px] bg-white flex items-center justify-between'>
         <div className='flex'>
           <a href="/">
             <BsFacebook className='text-[40px] text-fb-blue'/>
@@ -15,8 +19,19 @@ const Header = () => {
           </div>
         </div>
         {/* Middle part */}
-        <div>
-          
+        <div className='flex items-center'>
+          <CategoryIcon active={true} title="Home">
+            <HiHome/>
+          </CategoryIcon>
+          <CategoryIcon title="Watch">
+            <MdOutlineOndemandVideo/>
+          </CategoryIcon>
+          <CategoryIcon title="Groups">
+            <MdGroups/>
+          </CategoryIcon>
+          <CategoryIcon title="Gaming">
+            <SiFacebookgaming/>
+          </CategoryIcon>
         </div>
     </div>
   )

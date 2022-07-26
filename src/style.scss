@@ -10,3 +10,16 @@
         @apply bg-fb-gray;
     }
 }
+
+@layer components{
+    .showToltip{
+
+        &:hover &__child{
+            display:block
+        }
+
+        &__child{
+            display:none;
+        }
+    }
+}
