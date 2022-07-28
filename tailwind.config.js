@@ -13,7 +13,9 @@ module.exports = {
         "fb-blue":"#1C74E4",
         "fb-dark-primary":"#050505",
         "fb-gray1":"#606770",
-        "fb-gray2":"#EBEDF0"
+        "fb-gray2":"#EBEDF0",
+        "fb-gray3":"#D8DADF",
+        "fb-gray4":"#c2c4c9"
       }
     },
   },
