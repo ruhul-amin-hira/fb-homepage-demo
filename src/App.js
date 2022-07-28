@@ -12,8 +12,8 @@ function App() {
         <Header />
       </div>
       <div className='pt-[56px] flex 4xl:w-[1460px] 4xl:mx-auto'>
-        <div className='relative shrink h-screen hidden xl:block basis-80 max-w-xs min-w-64 px-[16px]'>
-          <div className="fixed">
+        <div className='relative shrink h-screen hidden xl:block basis-80 max-w-xs min-w-64 pl-2           pr-[16px]'>
+          <div className="sticky top-[10%]">
               <Profile />
           </div>
           
@@ -26,7 +26,7 @@ function App() {
          
         </div>
         <div className='relative shrink hidden lg:block h-screen basis-80 max-w-xs min-w-64 px-[16px]'>
-          <div className="fixed">
+          <div className="sticky top-[10%]">
           <Contacts />
           </div>
          
