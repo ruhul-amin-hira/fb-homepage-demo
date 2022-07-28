@@ -15,7 +15,8 @@ module.exports = {
         "fb-gray1":"#606770",
         "fb-gray2":"#EBEDF0",
         "fb-gray3":"#D8DADF",
-        "fb-gray4":"#c2c4c9"
+        "fb-gray4":"#c2c4c9",
+        "fb-gray-font": "#65676B"
       }
     },
   },
