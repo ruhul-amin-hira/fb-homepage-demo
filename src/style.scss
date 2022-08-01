@@ -42,4 +42,11 @@
     .general__shadow{
         box-shadow: -2px 8px 5px -8px rgba(0, 0, 0, 0.1);
     }
+
+    .general__text{
+        @apply text-[0.9rem] text-fb-gray1;
+    }
+    .general__border{
+        @apply border-fb-gray4 border-opacity-60;
+    }
 }

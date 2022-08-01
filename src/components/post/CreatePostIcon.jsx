@@ -7,7 +7,7 @@ const CreatePostIcon = ({children, title}) => {
         <span className={`w-[24px] h-[24px] text-2xl`}>
             {children}
         </span>
-        <span className='ml-2 text-fb-gray1 font-semibold text-base capitalize'>
+        <span className='ml-2 text-fb-gray1 font-semibold text-sm md:text-base whitespace-nowrap'>
             {title}
         </span>
     </div>
