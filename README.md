@@ -1,4 +1,7 @@
-# Getting Started with Create React App
+# Facebook home page demo
+
+![Screenshot](./public/screentshot/2.png)
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

@@ -20,9 +20,12 @@ const CreatePost = () => {
             <CreatePostIcon title={"Photo/video"}>
                 <IoMdPhotos className='text-[#41B35D]'/>
             </CreatePostIcon>
+            <span className='hidden md:block'>
             <CreatePostIcon title={"Feeling/activity"}>
                 <BiHappyAlt className='text-[#ECC059]'/>
             </CreatePostIcon>
+            </span>
+           
         </div>
         
     </div>

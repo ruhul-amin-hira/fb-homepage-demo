@@ -49,7 +49,7 @@ const Header = () => {
             <MdNotifications/>
           </MenuIcon>
           <MenuIcon title={"Your profile"} adiClass={"left-[-60%]"}>
-            <img src="/logo192.png" alt="profile image" />
+            <img src="/logo192.png" alt="profile"  className='bg-black rounded-full'/>
           </MenuIcon>
         </div>
     </div>
