@@ -1,9 +1,10 @@
 import React from 'react'
+import CreatePost from './CreatePost'
 
 const MainPage = () => {
   return (
     <div>
-        <h1>Main page</h1>
+        <CreatePost />
     </div>
   )
 }

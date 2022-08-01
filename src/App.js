@@ -20,7 +20,7 @@ function App() {
         </div>
 
         <div className='grow basis-[722px]  flex justify-center'>
-          <div className='md:w-[590px] 4xl:w-[680px] max-w-full w-full px-[16px]'>
+          <div className='md:w-[590px] 4xl:w-[680px] max-w-full w-full px-[16px] pt-6'>
             <MainPage />
           </div>
 
