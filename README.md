@@ -2,6 +2,8 @@
 
 ![Screenshot](./public/screentshot/2.png)
 
+![Screenshot](./public/screentshot/1.png)
+
 ![Screenshot](./public/screentshot/3.png)
 
 ![Screenshot](./public/screentshot/5.png)
