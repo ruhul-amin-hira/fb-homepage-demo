@@ -3,6 +3,8 @@ import { GrSearch } from 'react-icons/gr'
 import { MdVideoCall } from 'react-icons/md'
 import ContactIcons from './ContactIcons'
 import { BiDotsHorizontalRounded } from 'react-icons/bi'
+import { ContactLink } from './ContactLink'
+import userList from './ContactList'
 
 const Contacts = () => {
   return (
@@ -20,7 +22,13 @@ const Contacts = () => {
             <BiDotsHorizontalRounded/>
           </ContactIcons>
         </div>
+      
        </div>
+       <div className='pt-2'>
+          {userList && userList.map((el, index) => {
+            return <ContactLink title={el.name}  imgLink={`/users/${el.img}`} key={index} />
+          })}
+        </div>
     </div>
   )
 }

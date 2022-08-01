@@ -11,7 +11,7 @@ const Profile = () => {
     <div className='w-full'>
       <div className='w-full'>
         <ProfileLink title={"Ruhul Amin Hira"} colorfull={false}>
-          <img src="/logo192.png" alt="Profile image" className='bg-black rounded-full' />
+          <img src="/logo192.png" alt="Profile" className='bg-black rounded-full' />
         </ProfileLink>
         <ProfileLink title={"Friends"}>
           <BsPeopleFill />
